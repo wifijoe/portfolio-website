@@ -1,4 +1,5 @@
 # Summary
+### The website is running at https://portfolio.missinginfo.me/
 ## What This is
 This is a basic website I will be making to show off projects I have done in the past. It will start out small and get bigger as I get more projects that I can share under my belt. This will mostly consist of school projects to start off with, and grow with more personal projects and professional projects as I have the time to make and add them in. This site will be self-hosted off of my own server machine.
 ## ERD
