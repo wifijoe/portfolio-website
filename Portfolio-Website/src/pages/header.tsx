@@ -32,8 +32,8 @@ const Layout = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="/404" className="hover:text-primary-600 dark:hover:text-primary-500">
-                      404
+                    <a href="/projects/portfolio" className="hover:text-primary-600 dark:hover:text-primary-500">
+                      portfolio-site
                     </a>
                   </li>
                 </div>

@@ -6,6 +6,7 @@ import Header from "./pages/header";
 import Home from "./pages/home";
 import IPPPing from "./pages/IPPPing"
 import NoPage from "./pages/noPage";
+import Portfolio from './pages/portfolio';
 
 export default function App() {
   return (
@@ -14,7 +15,10 @@ export default function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<Navigate to="home" replace />} />
           <Route path="home" element={<Home />} />
-          <Route path="projects/IPPPing" element={<IPPPing />} />
+          <Route path="projects/">
+            <Route path="IPPPing" element={<IPPPing />} />
+            <Route path="portfolio" element={<Portfolio />} />
+          </Route>
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
