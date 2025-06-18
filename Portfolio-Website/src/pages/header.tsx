@@ -22,7 +22,7 @@ const Layout = () => {
           <NavbarLink href="/home" active={isActive("/home")}>
             Home
           </NavbarLink>
-          <NavbarLink>
+          <NavbarLink active={isActive("/projects")}>
             <MegaMenuDropdown toggle={<>Projects</>}>
               <ul className="grid grid-cols-2">
                 <div className="space-y-4 p-4">
